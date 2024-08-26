@@ -46,6 +46,7 @@
             colors: {
               "rin-primary": "#ABEF5F",
               "rin-secondary": "rgba(171, 239, 95, 0.50)",
+              "rin-bg-head": "rgba(171, 239, 95, 0.20)",
               "rin-primary": "#ABEF5F",
               "rin-heading": "#212121",
               "rin-paragraph": "#494949",
@@ -387,27 +388,130 @@
         </div>
       </section>
       <!-- our Latest portfolio section start  -->
-      <section>
+      <section class="md:my-28">
         <div class="container mx-auto">
           <div>
             <!-- section head  -->
             <div class="relative text-center">
               <button
-                class="font-bold bg-white py-1 px-4 rounded-3xl text-rin-paragraph"
+                class="font-bold bg-rin-bg-head py-1 px-4 rounded-3xl text-rin-paragraph"
               >
                 <i class="fa-solid fa-arrow-right-long text-rin-paragraph"></i>
-                How we works
+                Explore our Latest works
               </button>
               <h1
                 class="text-2xl mt-2 lg:text-5xl font-extrabold text-rin-heading"
               >
-                Our Works Process
+                Our Latest Portfolio
               </h1>
               <p class="py-5 font-medium text-rin-paragraph max-w-2xl mx-auto">
                 The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal
                 accents.
               </p>
+            </div>
+            <!-- portfolio card  -->
+            <div class="mt-10">
+              <!-- row 1  -->
+              <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-6 lg:gap-x-6">
+                <div class="col-span-2 lg:h-[300px]">
+                  <div
+                    class="bg-base-100 lg:flex items-center h-full py-3 rounded-xl shadow-sm border gap-5"
+                  >
+                    <div class="w-full lg:w-2/3 lg:ml-7 p-5 lg:p-0">
+                      <img
+                        class="w-full"
+                        src="./assets/img1.png"
+                        alt="picture"
+                      />
+                    </div>
+
+                    <div class="space-y-4 p-4">
+                      <h2
+                        class="card-title font-extrabold text-2xl text-rin-heading"
+                      >
+                        Commercial
+                      </h2>
+                      <p class="font-medium text-rin-paragraph">
+                        The barn house captivates with its blend of rustic charm
+                        and modern. The barn house captivates with its blend of
+                        rustic charm and modern .
+                      </p>
+                      <div class="card-actions">
+                        <button class="text-lg font-extrabold text-rin-heading">
+                          View Details
+                          <div
+                            class="w-8 h-8 bg-rin-primary rounded-full text-center text-[#1C1C1C] rotate-45 text-xl align-middle inline-block ml-1"
+                          >
+                            <i class="fa-solid fa-arrow-up-long mt-[6px]"></i>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="shadow-sm rounded-xl lg:h-[300px] border p-6">
+                    <img class="w-full h-full" src="./assets/img2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- row 2  -->
+              <div
+                class="grid grid-cols-1 lg:grid-cols-4 gap-y-6 lg:gap-x-6 h-[300px] mt-8"
+              >
+                <div>
+                  <div class="shadow-sm rounded-xl h-full border p-4">
+                    <img class="w-full" src="./assets/img3.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-span-2">
+                  <div class="col-span-2 lg:h-[300px]">
+                    <div
+                      class="bg-base-100 lg:flex items-center h-full py-3 rounded-xl shadow-sm border gap-5"
+                    >
+                      <div class="w-full h-[300px] p-6">
+                        <img
+                          class="w-full h-full"
+                          src="./assets/img4.png"
+                          alt="picture"
+                        />
+                      </div>
+
+                      <div class="space-y-4 p-4">
+                        <h2
+                          class="card-title font-extrabold text-2xl text-rin-heading"
+                        >
+                          Commercial
+                        </h2>
+                        <p class="font-medium text-rin-paragraph">
+                          The barn house captivates with its blend of rustic
+                          charm and modern. The barn house captivates with its
+                          blend of rustic charm and modern .
+                        </p>
+                        <div class="card-actions">
+                          <button
+                            class="text-lg font-extrabold text-rin-heading"
+                          >
+                            View Details
+                            <div
+                              class="w-8 h-8 bg-rin-primary rounded-full text-center text-[#1C1C1C] rotate-45 text-xl align-middle inline-block ml-1"
+                            >
+                              <i class="fa-solid fa-arrow-up-long mt-[6px]"></i>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="shadow-sm rounded-xl border p-4">
+                    <img class="w-full" src="./assets/img5.png" alt="" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
