@@ -65,35 +65,7 @@
       <nav class="mt-8">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-              >
-                <li><a class="text-rin-icons">Home</a></li>
-                <li><a class="text-rin-icons">service</a></li>
-                <li><a class="text-rin-icons">Portfolio</a></li>
-                <li><a class="text-rin-icons">Blogs</a></li>
-                <li><a class="text-rin-icons">Contact Us</a></li>
-              </ul>
-            </div>
-            <a class="text-3xl font-extrabold">
+            <a class="text-2xl md:text-3xl font-extrabold">
               <div
                 class="w-8 h-8 bg-rin-primary rounded-full text-center text-[#1C1C1C] rotate-45 text-xl align-middle inline-block"
               >
@@ -112,31 +84,41 @@
               <li><a class="text-rin-icons">Contact Us</a></li>
             </ul>
           </div>
-          <div class="navbar-end space-x-4">
+
+          <div class="navbar-end">
+            <div class="space-x-4 hidden xl:block">
+              <a
+                href="#"
+                class="btn btn-circle border-[#E9E9E9] btn-outline bg-white"
+                ><i
+                  class="fa-solid text-rin-icons fa-magnifying-glass text-lg"
+                ></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-circle border-[#E9E9E9] btn-outline bg-white"
+                ><i class="fa-solid text-rin-icons fa-cart-shopping text-lg"></i
+              ></a>
+              <a class="btn bg-rin-primary font-extrabold text-lg rounded-3xl"
+                >Book Consult
+                <div
+                  class="w-8 h-8 bg-[#1C1C1C] rounded-full text-center text-white rotate-45 text-xl align-middle inline-block"
+                >
+                  <i class="fa-solid fa-arrow-up-long mt-[6px]"></i></div
+              ></a>
+            </div>
+
             <a
               href="#"
-              class="btn btn-circle border-[#E9E9E9] btn-outline bg-white"
-              ><i
-                class="fa-solid text-rin-icons fa-magnifying-glass text-lg"
-              ></i
-            ></a>
-            <a
-              href="#"
-              class="btn btn-circle border-[#E9E9E9] btn-outline bg-white"
-              ><i class="fa-solid text-rin-icons fa-cart-shopping text-lg"></i
-            ></a>
-            <a class="btn bg-rin-primary font-extrabold text-lg rounded-3xl"
-              >Book Consult
-              <div
-                class="w-8 h-8 bg-[#1C1C1C] rounded-full text-center text-white rotate-45 text-xl align-middle inline-block"
-              >
-                <i class="fa-solid fa-arrow-up-long mt-[6px]"></i></div
+              class="btn lg:hidden btn-circle border-[#E9E9E9] btn-outline bg-white"
+              ><i class="fa-solid fa-bars text-xl text-rin-icons"></i
             ></a>
           </div>
+          <!-- responsive menu -->
         </div>
       </nav>
       <!-- hero part  -->
-      <div>
+      <div class="mb-6 lg:mb-0">
         <div class="hero">
           <div class="hero-content text-center">
             <div class="max-w-6xl">
@@ -205,15 +187,17 @@
                   </p>
                 </div>
                 <div class="space-y-6">
-                  <div class="card card-side bg-base-100 shadow-sm">
-                    <figure>
+                  <div
+                    class="card card-side bg-base-100 p-4 lg:p-4 items-start md:items-center shadow-sm"
+                  >
+                    <figure class="pt-4 sm:pt-0">
                       <img
-                        class="ml-7"
+                        class="w-full"
                         src="./assets/commercial.png"
                         alt="Movie"
                       />
                     </figure>
-                    <div class="card-body">
+                    <div class="card-body p-3 sm:p-6">
                       <h2 class="text-xl font-extrabold text-rin-paragraph">
                         Commercial
                       </h2>
@@ -223,15 +207,17 @@
                       </p>
                     </div>
                   </div>
-                  <div class="card card-side bg-base-100 shadow-sm">
-                    <figure>
+                  <div
+                    class="card card-side items-start md:items-center bg-base-100 shadow-sm p-4 lg:p-4"
+                  >
+                    <figure class="pt-4 sm:pt-0">
                       <img
-                        class="ml-7"
+                        class="w-full"
                         src="./assets/residential.png"
                         alt="Movie"
                       />
                     </figure>
-                    <div class="card-body">
+                    <div class="card-body p-3 sm:p-6">
                       <h2 class="text-xl font-extrabold text-rin-paragraph">
                         Residential
                       </h2>
@@ -249,7 +235,7 @@
         </div>
       </section>
       <!-- counter section start  -->
-      <section class="bg-rin-section">
+      <section class="bg-rin-section px-5 md:px-0">
         <div class="container mx-auto">
           <!-- counter card  -->
           <div
@@ -285,7 +271,7 @@
       <!-- our work process section start  -->
       <section class="bg-rin-section py-10 md:pt-28">
         <div class="container mx-auto">
-          <div>
+          <div class="px-5 md:px-0">
             <!-- section head  -->
             <div class="text-center">
               <button
@@ -388,9 +374,9 @@
         </div>
       </section>
       <!-- our Latest portfolio section start  -->
-      <section class="md:my-28">
+      <section class="my-8 md:my-28">
         <div class="container mx-auto">
-          <div>
+          <div class="px-5 md:px-0">
             <!-- section head  -->
             <div class="text-center">
               <button
@@ -519,7 +505,7 @@
 
       <!-- our Articles and news section start  -->
       <section class="bg-rin-section py-10 md:py-28">
-        <div class="container mx-auto">
+        <div class="container mx-auto px-5 md:px-0">
           <!-- head section  -->
           <div class="text-center">
             <button
@@ -670,7 +656,7 @@
       <section
         class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover bg-center py-10 md:py-28"
       >
-        <div class="container mx-auto">
+        <div class="container mx-auto px-5 md:px-0">
           <!-- head section  -->
           <div class="text-center">
             <button
